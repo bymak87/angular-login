@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="panel panel-default" style="border-top: 4px solid #428bca">
+        <div class="panel-heading">
+          <h1>Register a new account</h1>
+        </div>
+
+        <div ng-controller="MainCtrl" class="panel-body">
+          <form class="form-signin">
+            <input type="text" placeholder="Username" ng-model="username" class="form-control"><br>
+            <input type="text" placeholder="Email Address" ng-model="password" class="form-control"><br>
+            <input type="password" placeholder="Set your password" ng-model="repassword" class="form-control"><br>
+            <input type="password" placeholder="Reenter your password" class="form-control"><br>
+            <input class="btn btn-primary pull-right" type="submit" value="Register">
+          </form>
+          <a href="#/login">Already have an account?<br> Sign in now</a><br>
+        </div>
+
+        <div class="panel-footer" >
+          <a href="#/forgotpassword">Forgot password?</a>
+          <a class="pull-right" href="#/forgotusername">Forgot your username?</a>
+        </div>
+
+      </div>
+    </div>
+   </div>
+</div>
+
+
+
+
