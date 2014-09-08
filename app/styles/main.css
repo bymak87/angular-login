@@ -1,3 +1,11 @@
+/* Styles*/
+input.ng-invalid.ng-dirty{
+  background-color: #FA787E;
+}
+input.ng-valid.ng-dirty{
+  background-color: #78FA89;
+}
+
 /* Space out content a bit */
 body {
   padding-top: 20px;
@@ -100,6 +108,7 @@ body {
 @keyframes rotateOutNewspaper {
   to    { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
 }
+
 
 /* entering animations --------------------------------------- */
 /* scale up */

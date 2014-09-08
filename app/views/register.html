@@ -7,9 +7,9 @@
         </div>
 
         <div ng-controller="MainCtrl" class="panel-body">
-          <form class="form-signin">
-            <input type="text" placeholder="Username" ng-model="username" class="form-control"><br>
-            <input type="text" placeholder="Email Address" ng-model="password" class="form-control"><br>
+          <form novalidate class="form-signin">
+            <input type="text" placeholder="Username" ng-model="username" class="form-control" required><br>
+            <input type="email" placeholder="Email Address" ng-model="email" class="form-control" required><br>
             <input type="password" placeholder="Set your password" ng-model="repassword" class="form-control"><br>
             <input type="password" placeholder="Reenter your password" class="form-control"><br>
             <input class="btn btn-primary pull-right" type="submit" value="Register">
